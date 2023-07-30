@@ -1,0 +1,58 @@
+/* ContactForm.css */
+
+.contact-form-container {
+	max-width: 1201px;
+	position: relative;
+	margin: 25% auto;
+	background-color: #1a1a1a;
+	border-radius: 10px;
+	display: flex;
+	flex-wrap: wrap; /* Allow wrapping if the content overflows the container */
+	justify-content: space-between; /* Position elements with space between them */
+	flex-direction: column;
+}
+.contact-form-title {
+	width: 100%;
+	text-align: center;
+}
+h1 {
+	font-size: 46px;
+
+	color: #fff;
+}
+
+h2 {
+	font-size: 18px;
+	color: #beb185;
+}
+
+h3 {
+	font-size: 18px;
+	color: #beb185;
+}
+
+.contact-form-wrapper {
+	margin: 0 2%;
+	/* width: 100%; */
+	background-color: #1a1a1a;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+	.contact-form-container {
+		flex-direction: column-reverse; /* Reverse the order of components on smaller screens */
+		align-items: center; /* Center the components vertically on smaller screens */
+	}
+
+	.contact-form-wrapper {
+		flex-direction: column; /* Change to column layout for components on smaller screens */
+		align-items: center; /* Center the components vertically on smaller screens */
+	}
+
+	.contact-form-wrapper > div {
+		width: 100%; /* Make both components take full width on smaller screens */
+		margin: 2% 0; /* Add some margin between the components on smaller screens */
+	}
+}

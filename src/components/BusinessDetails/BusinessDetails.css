@@ -1,0 +1,37 @@
+/* ContactInfo.css */
+.contact-info-container {
+	font-family: Barlow Semi Condensed;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 20px;
+}
+
+.left-column,
+.right-column {
+	flex-basis: 50%;
+}
+
+.address {
+	color: #ffffff;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.address h3 {
+	color: #beb185;
+	padding: 2px;
+	margin-bottom: 10px;
+	font-size: 13px;
+}
+
+.address p {
+	color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+	.left-column,
+	.right-column {
+		flex-basis: 100%;
+	}
+}

@@ -1,0 +1,33 @@
+.header {
+	/* position: absolute; */
+	width: 100%;
+	height: 36px;
+	top: 36px;
+
+	background-color: #c6b68b; /* Updated background color */
+}
+.header ul {
+	display: flex;
+	list-style: none;
+	padding: 7px 80px;
+	gap: 20px;
+	margin: 0;
+}
+
+.header ul li a {
+	text-decoration: none;
+	color: #252526;
+}
+
+.header ul li {
+	margin-right: 20px; /* Add some spacing between the list items */
+}
+
+.header ul li:last-child {
+	margin-right: 0; /* Remove margin from the last list item */
+}
+
+.header ul li a {
+	text-decoration: none;
+	color: #252526;
+}

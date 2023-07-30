@@ -1,0 +1,22 @@
+/* ColorButton.css */
+
+.color-button {
+	width: 155px;
+	height: 36px;
+	top: 1025px;
+	left: 527px;
+	border: 1px solid #000000;
+	border-radius: 5px;
+	background-color: #beb185;
+	padding: 10px 20px;
+	color: white;
+	font-size: 15px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+	font-family: 'Barlow Semi Condensed';
+}
+
+/* Add styles for the button when it's pressed */
+.color-button:active {
+	background-color: #beb185;
+}

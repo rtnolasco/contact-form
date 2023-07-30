@@ -1,0 +1,74 @@
+/* ContactFormMap.css */
+
+/* Styles for the Google Maps section */
+.map-container {
+	max-width: 492px;
+	padding-top: 20px;
+	margin: 0 2%;
+}
+
+.map-container h2 {
+	font-size: 18px;
+	margin-bottom: 10px;
+	color: #fff;
+}
+
+.button {
+	width: 156px;
+	height: 36px;
+	background-color: #007bff;
+	color: #fff;
+	border: 1px solid #007bff;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 14px;
+	margin-bottom: 8px;
+}
+
+/* Styles for the active state */
+button.active {
+	width: 155px;
+	height: 36px;
+	top: 1025px;
+	left: 190px;
+	border-radius: 5px;
+	background: #beb185;
+}
+
+/* Styles for the non-active state */
+.button:not(.active) {
+	border: 1px solid #beb185;
+}
+
+.button-container {
+	margin-top: 20px;
+	display: flex;
+	gap: 14px;
+}
+/* Media queries for responsive design */
+
+@media screen and (max-width: 768px) {
+	.buttons {
+		width: 100%;
+		align-items: center;
+	}
+
+	.button {
+		width: 100%;
+	}
+
+	/* .google-map {
+	  width: 100%;
+	} */
+}
+
+@media screen and (max-width: 576px) {
+	/* .map-container {
+	  flex-direction: column;
+	}
+  
+	.map-buttons {
+	  align-items: center;
+	  margin-bottom: 0;
+	} */
+}

@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;200;400;500&display=swap');
+
+html,
+body,
+p {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+	width: 100%;
+	height: 1439px;
+	position: relative;
+	margin: -36px auto;
+	overflow: hidden;
+	background-color: #323232;
+
+	background-image: url('../src/assets/Frame.png');
+	opacity: 1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* Responsive CSS - adjust as needed */
+@media screen and (max-width: 2440px) {
+	.container {
+		width: 100%;
+	}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+	.header,
+	.navigation,
+	.hero-image {
+		width: 100%;
+		position: relative;
+		left: 0;
+		margin: 0;
+	}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+	.contact-form {
+		width: 100%;
+	}
 }
