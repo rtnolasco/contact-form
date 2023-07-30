@@ -30,7 +30,7 @@ const ContactFormMap = () => {
 	return (
 		<div className="map-container">
 			<h2>find us IN ONE OF THREE OFFICES IN CYPRUS:</h2>
-			<LoadScript googleMapsApiKey="AIzaSyAZzcASoVMLs64CWUpWPKYm-DAd0ZeTHqA">
+			<LoadScript googleMapsApiKey="">
 				<div style={mapStyles}>
 					<GoogleMap
 						mapContainerStyle={{
